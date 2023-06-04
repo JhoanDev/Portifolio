@@ -91,3 +91,24 @@ body{
     background-color: var(--secondary-purple);
     margin-top: 30px;
 }
+
+.certificates {
+    background-color: var(--main-black);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.certificates h2 {
+    font-size: 36px;
+    color: var(--main-white);
+    margin-bottom: 20px;
+}
+
+.certificates p {
+    font-size: 24px;
+    color: var(--main-white);
+}
