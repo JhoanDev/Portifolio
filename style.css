@@ -1,0 +1,92 @@
+:root {
+    --main-black: rgb(0, 0, 0);
+    --main-gray: rgb(36, 34, 34);
+    --main-white: rgb(223, 247, 245);
+    --secondary-purple: rgb(42, 7, 65);
+    --secondary-green: rgb(0, 255, 0);
+}
+
+body{
+    background-color: var(--main-gray);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 0em;
+    margin: 0em;
+    -webkit-user-select:none;  
+    -moz-user-select:none;     
+    -ms-user-select:none;      
+    user-select:none;    
+}
+
+.navbar {
+    background-color: var(--secondary-purple);
+    height: 58px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: var(--main-white);
+    text-align: center;
+    padding: 20px 18px;
+    text-decoration: none;
+}
+
+.navbar li.nome {
+    float: left;
+    font-size: 24px;
+    color: var(--main-white);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.navbar li.itensnav a:hover {
+    background-color: green;
+}
+
+.home {
+    background-color: var(--main-black);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 48px;
+    color: var(--main-white);
+    margin-bottom: 10px;
+}
+
+.home p {
+    font-size: 24px;
+    color: var(--main-white);
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: var(--secondary-green);
+    border-style: inset;
+    background-color: var(--secondary-purple);
+    margin-top: 30px;
+}
