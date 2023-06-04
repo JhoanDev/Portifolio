@@ -137,12 +137,16 @@ section {
 .about div{
     position: relative;
     left: 50%;
-    bottom: 70%;
+    bottom: 75%;
     text-align: left;
     color: var(--main-white);
     height: 75%;
     width: 50%;
 }
+.about div p{
+    font-size: 20px;
+}
+
 .about p {
     text-align: left;
     font-size: 24px;
