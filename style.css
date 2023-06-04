@@ -221,3 +221,57 @@ section {
     margin-top: 2%;
     padding: 2px;
 }
+
+.projects {
+    background-color: var(--main-black);
+    padding: 50px;
+}
+  
+.projects h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+.projects p {
+    text-align: center;
+}
+  
+.contacts {
+    background-color: var(--main-black);
+    padding: 50px;
+}
+  
+.contacts h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+.contacts p {
+    text-align: center;
+}
+  
+.contacts ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    text-align: center;
+}
+  
+.contacts li {
+    display: inline-block;
+    margin: 10px;
+}
+  
+.contacts a {
+    text-decoration: none;
+    color: var(--main-blue);
+    font-weight: bold;
+}
+  
+footer {
+    background-color: var(--main-black);
+    color: var(--main-white);
+    padding: 20px;
+    text-align: center;
+}
+  
