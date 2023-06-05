@@ -70,7 +70,7 @@ section {
 
 .home {
     background-color: var(--main-black);
-    height: 90vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,16 +87,6 @@ section {
 .home p {
     font-size: 24px;
     color: var(--main-white);
-}
-
-.profile-pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border-color: var(--secondary-blue);
-    border-style: inset;
-    background-color: var(--main-purple);
-    margin-top: 30px;
 }
 
 .certificates {
@@ -122,7 +112,7 @@ section {
 
 .about {
     background-color: var(--main-black);
-    height: 50vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     padding: 50px;
@@ -137,7 +127,7 @@ section {
 .about div{
     position: relative;
     left: 50%;
-    bottom: 75%;
+    bottom: 65%;
     text-align: left;
     color: var(--main-white);
     height: 75%;
@@ -155,6 +145,7 @@ section {
 }
 
 .skills {
+    height: 55vh;
     background-color: var(--main-black);
     color: var(--main-white);
     padding: 20px;
@@ -235,7 +226,8 @@ section {
 
 .projects {
     background-color: var(--main-black);
-    padding: 50px;
+    height: 55vh;
+    padding: 100px;
 }
   
 .projects h2 {
@@ -250,6 +242,7 @@ section {
 .contacts {
     background-color: var(--main-black);
     padding: 50px;
+    height: 40vh;
 }
   
 .contacts h2 {
