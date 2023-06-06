@@ -285,27 +285,29 @@ section {
 .projects{
     background-color: var(--main-black);
     padding: 75px;
-    height: 100vh;
+    height: 125vh;
 }
+
 .project-gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  
-  .project img {
+}
+
+.project img {
     width: 50%;
     height: auto;
     box-sizing: border-box;
     border: 2px inset var(--secondary-blue);
     margin-top: 20px;
-  }
+}
   
-  .project-caption {
+.project-caption {
     text-align: center;
-  }
-  
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+}
   
 footer {
     background-color: var(--main-black);
