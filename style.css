@@ -281,6 +281,31 @@ section {
     color: var(--main-blue);
     font-weight: bold;
 }
+
+.projects{
+    background-color: var(--main-black);
+    padding: 75px;
+    height: 100vh;
+}
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  .project img {
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    border: 2px inset var(--secondary-blue);
+    margin-top: 20px;
+  }
+  
+  .project-caption {
+    text-align: center;
+  }
+  
   
 footer {
     background-color: var(--main-black);
