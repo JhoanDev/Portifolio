@@ -74,7 +74,7 @@ section {
 
 .home {
     background-color: var(--main-black);
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,7 +127,7 @@ section {
 .about {
     padding: 4.6875rem;
     background-color: var(--main-black);
-    height: 55vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
 }
