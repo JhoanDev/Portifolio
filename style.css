@@ -7,11 +7,11 @@
     --secondary-green: #00ff15;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: var(--main-black);
     color: var(--main-white);
     text-align: center;
@@ -19,14 +19,33 @@ body{
     font-size: 1.25rem;
     padding: 0em;
     margin: 0em;
-    -webkit-user-select:none;  
-    -moz-user-select:none;     
-    -ms-user-select:none;      
-    user-select:none;    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 section {
     border-bottom: 0.25rem solid var(--secondary-blue);
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.625rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+    margin-bottom: 1.25rem
+}
+
+h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0.625rem;
 }
 
 .navbar {
@@ -42,7 +61,7 @@ section {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: 0.9375rem; 
+    margin-left: 0.9375rem;
     margin-right: 0.9375rem;
 }
 
@@ -82,17 +101,6 @@ section {
     text-align: center;
 }
 
-.home h1 {
-    font-size: 3rem;
-    color: var(--main-white);
-    margin-bottom: 0.625rem;
-}
-
-.home p {
-    font-size: 1.5rem;
-    color: var(--main-white);
-}
-
 .profile-pic {
     width: 12.5rem;
     height: 12.5rem;
@@ -103,28 +111,8 @@ section {
     margin-top: 1.875rem;
 }
 
-.certificates {
-    background-color: var(--main-black);
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.certificates h2 {
-    font-size: 2.25rem;
-    color: var(--main-white);
-    margin-bottom: 1.25rem;
-}
-
-.certificates p {
-    font-size: 1.5rem;
-    color: var(--main-white);
-}
-
 .about {
+    position: relative;
     padding: 4.6875rem;
     background-color: var(--main-black);
     height: 75vh;
@@ -132,13 +120,15 @@ section {
     flex-direction: column;
 }
 
-.about h2 {
-    font-size: 2.25rem;
+.about p {
+    position: relative;
+    text-align: left;
+    font-size: 1rem;
     color: var(--main-white);
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.3125rem;
 }
 
-.about div{
+.about div {
     position: relative;
     left: 50%;
     bottom: 65%;
@@ -146,16 +136,6 @@ section {
     color: var(--main-white);
     height: 75%;
     width: 50%;
-}
-.about div p{
-    font-size: 1.25rem;
-}
-
-.about p {
-    text-align: left;
-    font-size: 1.5rem;
-    color: var(--main-white);
-    margin-bottom: 0.3125rem;
 }
 
 .skills {
@@ -165,61 +145,52 @@ section {
     padding: 4.6875rem;
     text-align: center;
 }
-  
-.skills h2 {
-    font-size: 2.25rem;
-    margin-bottom: 1.25rem;
-}
-  
-.skills h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.625rem;
-}
-  
+
+
 .skills-container {
     display: flex;
     justify-content: center;
 }
-  
+
 .skills-list {
     flex: 1;
     max-width: 30%;
     padding: 0 1.25rem;
     text-align: left;
 }
-  
+
 .skills-list ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-  
+
 .skills-list li {
     margin-bottom: 0.9375rem;
 }
-  
+
 .skill-name {
     font-size: 1.25rem;
 }
-  
+
 .skill-bar {
     width: 60%;
     height: 0.625rem;
     background-color: var(--main-purple);
 }
-  
+
 .skill-progress {
     height: 100%;
     background-color: var(--main-blue);
 }
-  
+
 .skills-list-idioma ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     margin-top: 15%;
 }
-  
+
 .skills-list-idioma li {
     padding: 0.125rem;
     margin-bottom: 0.625rem;
@@ -227,7 +198,7 @@ section {
     align-items: left;
     text-align: center;
 }
-  
+
 .skill-dot {
     width: 0.625rem;
     height: 0.625rem;
@@ -243,17 +214,17 @@ section {
     height: 55vh;
     padding: 4.6875rem;
 }
-  
+
 .projects h2 {
     text-align: center;
     margin-bottom: 1.875rem;
 }
-  
+
 .projects p {
     text-align: center;
 }
 
-.projects{
+.projects {
     background-color: var(--main-black);
     padding: 4.6875rem;
     height: 125vh;
@@ -272,7 +243,7 @@ section {
     border: 0.125rem inset var(--secondary-blue);
     margin-top: 1.25rem;
 }
-  
+
 .project-caption {
     text-align: center;
     font-size: 1.625rem;
@@ -281,49 +252,40 @@ section {
 }
 
 .contacts {
-  background-color: var(--main-black);
-  color: var(--main-white);
-  padding: 4.6875rem;
-  text-align: center;
-}
-
-.contacts h2 {
-  font-size: 1.875rem;
-  margin-bottom: 3.125rem;
-}
-
-.contacts p {
-  font-size: 1.5rem;
-  margin-bottom: 1.25rem;
+    background-color: var(--main-black);
+    color: var(--main-white);
+    padding: 4rem;
+    text-align: center;
+    height: 40vh;
 }
 
 .contact-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-list li {
-  margin-right: 1.25rem;
+    margin-right: 1rem;
 }
 
 .contact-list li:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .contact-list a {
-  display: inline-block;
-  background-color: var(--main-blue);
-  color: var(--main-white);
-  padding: 0.625rem 1.25rem;
-  text-decoration: none;
-  border-radius: 0.25rem;
+    display: inline-block;
+    background-color: var(--main-blue);
+    color: var(--main-white);
+    padding: 0.625rem 1.25rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
 }
 
 .contact-list a:hover {
-  background-color: var(--main-purple);
+    background-color: var(--main-purple);
 }
 
 footer {
@@ -331,4 +293,99 @@ footer {
     color: var(--main-white);
     padding: 1.25rem;
     text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .home {
+        height: 50vh;
+    }
+
+    .about {
+        padding: 20px;
+        font-size: 14px;
+        height: 60vh;
+    }
+
+    .about div {
+        width: 100%;
+        margin-top: 15px;
+        left: 0%;
+        bottom: 0%;
+    }
+
+    .about .skill-dot {
+        height: 1px;
+        left: 0%;
+        bottom: 0%;
+    }
+
+    .skills{
+        height: 20vh;
+        padding: 2rem;
+    }
+
+    .skills h3 {
+        display: none;
+    }
+
+    .skill-name {
+        font-size: 16px;
+    }
+
+    .skill-bar {
+        width: 100%;
+    }
+
+    .skills-list-idioma ul {
+        margin-top: 0%;
+    }
+
+    .skill-dot {
+        width: 0.600rem;
+        height: 0.500rem;
+        background-color: var(--main-blue);
+        border-radius: 50%;
+        margin-right: 0.3125rem;
+        margin-top: 5%;
+        padding: 0.125rem;
+    }
+
+    .projects {
+        background-color: var(--main-black);
+        height: 140vh;
+        padding: 1rem;
+    }
+    
+    .contact-list a {
+        display: inline-block;
+        background-color: var(--main-blue);
+        color: var(--main-white);
+        padding: 0.525rem 1rem;
+        text-decoration: none;
+        border-radius: 0.25rem;
+    }
 }
