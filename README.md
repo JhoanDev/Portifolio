@@ -1,9 +1,6 @@
 # Portfólio JhoanDev
 
 Este é o código-fonte do meu portfólio pessoal, desenvolvido por Jhoan Fernandes de Oliveira. O portfólio apresenta informações sobre mim, meus projetos, habilidades e formas de entrar em contato comigo. 
-# Portfólio JhoanDev
-
-Este é o código-fonte do meu portfólio pessoal, desenvolvido por Jhoan Fernandes de Oliveira. O portfólio apresenta informações sobre mim, meus projetos, habilidades e formas de entrar em contato comigo. 
 
 ## Tópicos
 
