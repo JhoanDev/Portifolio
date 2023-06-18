@@ -29,6 +29,14 @@ section {
     border-bottom: 0.25rem solid var(--secondary-blue);
 }
 
+footer {
+    background-color: var(--main-black);
+    color: var(--main-white);
+    padding: 1.25rem;
+    text-align: center;
+    height: 5vh;
+}
+
 p {
     font-size: 1.5rem;
 }
@@ -47,6 +55,7 @@ h3 {
     font-size: 1.7rem;
     margin-bottom: 0.625rem;
 }
+
 
 .navbar {
     background-color: var(--main-purple);
@@ -92,13 +101,16 @@ h3 {
 }
 
 .home {
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: var(--main-black);
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
 }
 
 .profile-pic {
@@ -115,31 +127,39 @@ h3 {
     position: relative;
     padding: 4.6875rem;
     background-color: var(--main-black);
-    height: 75vh;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
 
 .about p {
-    position: relative;
     text-align: left;
-    font-size: 1rem;
+    top: 10%;
+    font-size: 1.75rem;
     color: var(--main-white);
     margin-bottom: 0.3125rem;
 }
 
+.bar-blue {
+    width: 100%;
+    height: 1px;
+    background-color: var(--main-blue);
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding: 0.100rem;
+}
+
 .about div {
-    position: relative;
-    left: 50%;
-    bottom: 65%;
     text-align: left;
     color: var(--main-white);
     height: 75%;
-    width: 50%;
+    width: 100%;
 }
 
 .skills {
-    height: 55vh;
+    position: relative;
+    height: auto;
     background-color: var(--main-black);
     color: var(--main-white);
     padding: 4.6875rem;
@@ -148,6 +168,7 @@ h3 {
 
 
 .skills-container {
+    position: relative;
     display: flex;
     justify-content: center;
 }
@@ -160,6 +181,7 @@ h3 {
 }
 
 .skills-list ul {
+    position: relative;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -199,22 +221,6 @@ h3 {
     text-align: center;
 }
 
-.skill-dot {
-    width: 0.625rem;
-    height: 0.625rem;
-    background-color: var(--main-blue);
-    border-radius: 50%;
-    margin-right: 0.3125rem;
-    margin-top: 2%;
-    padding: 0.125rem;
-}
-
-.projects {
-    background-color: var(--main-black);
-    height: 55vh;
-    padding: 4.6875rem;
-}
-
 .projects h2 {
     text-align: center;
     margin-bottom: 1.875rem;
@@ -225,9 +231,10 @@ h3 {
 }
 
 .projects {
+    position: relative;
     background-color: var(--main-black);
     padding: 4.6875rem;
-    height: 125vh;
+    height: auto;
 }
 
 .project-gallery {
@@ -251,48 +258,44 @@ h3 {
     margin-top: 0.625rem;
 }
 
-.contacts {
+section#contacts {
     background-color: var(--main-black);
     color: var(--main-white);
-    padding: 4rem;
+    padding: 4.6875rem;
     text-align: center;
-    height: 40vh;
 }
 
-.contact-list {
+section#contacts h2 {
+    margin-bottom: 1.875rem;
+}
+
+.contacts ul.contact-list {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
 }
 
-.contact-list li {
-    margin-right: 1rem;
+.contacts ul.contact-list li {
+    margin: 0.625rem;
 }
 
-.contact-list li:last-child {
-    margin-right: 0;
+.contacts ul.contact-list li a {
+    color: var(--main-white);
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 0.625rem 1.25rem;
+    border: 0.125rem solid var(--secondary-blue);
+    border-radius: 2rem;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.contact-list a {
-    display: inline-block;
+.contacts ul.contact-list li a:hover {
     background-color: var(--main-blue);
     color: var(--main-white);
-    padding: 0.625rem 1.25rem;
-    text-decoration: none;
-    border-radius: 0.25rem;
-}
-
-.contact-list a:hover {
-    background-color: var(--main-purple);
-}
-
-footer {
-    background-color: var(--main-black);
-    color: var(--main-white);
-    padding: 1.25rem;
-    text-align: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -321,13 +324,15 @@ footer {
     }
 
     .home {
-        height: 50vh;
+        padding: 15px;
     }
 
     .about {
         padding: 20px;
-        font-size: 14px;
-        height: 60vh;
+    }
+
+    .about p {
+        font-size: 16px;
     }
 
     .about div {
@@ -343,8 +348,7 @@ footer {
         bottom: 0%;
     }
 
-    .skills{
-        height: 20vh;
+    .skills {
         padding: 2rem;
     }
 
@@ -376,16 +380,28 @@ footer {
 
     .projects {
         background-color: var(--main-black);
-        height: 140vh;
         padding: 1rem;
     }
-    
-    .contact-list a {
-        display: inline-block;
-        background-color: var(--main-blue);
+
+    section#contacts {
+        padding: 2rem;
+    }
+
+    section#contacts h2 {
+        font-size: 18px;
+    }
+
+    .contacts ul.contact-list li a {
         color: var(--main-white);
-        padding: 0.525rem 1rem;
         text-decoration: none;
-        border-radius: 0.25rem;
+        font-size: 0.750rem;
+        padding: 0.5rem 1rem;
+        border: 0.125rem solid var(--secondary-blue);
+        border-radius: 2rem;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    footer {
+        margin-top: 1rem;
     }
 }
