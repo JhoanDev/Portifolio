@@ -147,7 +147,7 @@ h3 {
     border-radius: 50%;
     margin-top: 2%;
     margin-bottom: 1%;
-    padding: 0.100rem;
+    padding: 0.1rem;
 }
 
 .about div {
@@ -261,8 +261,9 @@ h3 {
 section#contacts {
     background-color: var(--main-black);
     color: var(--main-white);
-    padding: 4.6875rem;
+    padding: 3rem;
     text-align: center;
+    border: none;
 }
 
 section#contacts h2 {
@@ -300,23 +301,23 @@ section#contacts h2 {
 
 @media screen and (max-width: 480px) {
     body {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     h3 {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     p {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .navbar {
@@ -324,20 +325,20 @@ section#contacts h2 {
     }
 
     .home {
-        padding: 15px;
+        padding: 0.9375rem;
     }
 
     .about {
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     .about p {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .about div {
         width: 100%;
-        margin-top: 15px;
+        margin-top: 0.9375rem;
         left: 0%;
         bottom: 0%;
     }
@@ -357,7 +358,7 @@ section#contacts h2 {
     }
 
     .skill-name {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .skill-bar {
@@ -369,8 +370,8 @@ section#contacts h2 {
     }
 
     .skill-dot {
-        width: 0.600rem;
-        height: 0.500rem;
+        width: 0.6rem;
+        height: 0.5rem;
         background-color: var(--main-blue);
         border-radius: 50%;
         margin-right: 0.3125rem;
@@ -384,7 +385,7 @@ section#contacts h2 {
     }
 
     section#contacts {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     section#contacts h2 {
@@ -394,8 +395,8 @@ section#contacts h2 {
     .contacts ul.contact-list li a {
         color: var(--main-white);
         text-decoration: none;
-        font-size: 0.750rem;
-        padding: 0.5rem 1rem;
+        font-size: 0.7rem;
+        padding: 0.4rem 0.9rem;
         border: 0.125rem solid var(--secondary-blue);
         border-radius: 2rem;
         transition: background-color 0.3s, color 0.3s;
@@ -403,5 +404,11 @@ section#contacts h2 {
 
     footer {
         margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .navbar {
+        display: none;
     }
 }
