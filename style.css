@@ -59,7 +59,7 @@ h3 {
 
 .navbar {
     background-color: var(--main-purple);
-    height: 3.9375rem;
+    height: auto;
     position: fixed;
     width: 100%;
     z-index: 9999;

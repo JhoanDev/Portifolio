@@ -14,7 +14,7 @@ Este é o código-fonte do meu portfólio pessoal, desenvolvido por Jhoan Fernan
 
 ## Uso
 
-- Para acessar o site, basta abrir o [LinkDoPortifólio](https://jhoandev.github.io/CalculadoraGamer/) em um navegador de internet.
+- Para acessar o site, basta abrir o [LinkDoPortifólio](https://jhoandev.github.io/Portifolio/) em um navegador de internet.
 
 ## Características
 
