@@ -24,17 +24,6 @@ Este é o código-fonte do meu portfólio pessoal, desenvolvido por Jhoan Fernan
 - A seção `Contato` lista várias formas de entrar em contato comigo, incluindo links para meu perfil no LinkedIn, GitHub, e-mail e Instagram.
 - O rodapé inclui o ano atual e minha assinatura.
 
-## Uso
-
-1. Faça o download dos arquivos HTML, CSS e imagens.
-2. Abra o arquivo `index.html` em um navegador da web.
-
-## Personalização
-
-- Para personalizar o conteúdo do portfólio, você pode editar diretamente o arquivo `index.html`. Você pode alterar o texto, as imagens e adicionar/remover seções conforme necessário.
-- O estilo do portfólio é definido no arquivo `style.css`. Se desejar, você pode modificar as propriedades CSS para personalizar o design e a aparência do portfólio.
-- Se desejar adicionar funcionalidades adicionais, como animações ou interatividade, você pode editar o arquivo `main.js`.
-
 ## Requisitos
 
 Nenhum requisito especial é necessário para executar o portfólio. Basta abrir em um navegador da web.
